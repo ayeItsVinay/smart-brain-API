@@ -11,6 +11,8 @@ import profile from './controllers/profile';
 import image from './controllers/image';
 
 ////--exec babel-node
+//    "start": "nodemon server.js",
+
 
 const db = knex({
     client: 'pg',   
