@@ -1,4 +1,4 @@
-import express from 'express';
+const express = require('express');
 import bodyParser from 'body-parser';
 import bcrypt from 'bcrypt-nodejs';
 import cors from 'cors';
