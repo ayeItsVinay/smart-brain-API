@@ -1,14 +1,14 @@
 const express = require('express');
-import bodyParser from 'body-parser';
-import bcrypt from 'bcrypt-nodejs';
-import cors from 'cors';
-import knex from 'knex';
+const bodyParser = require('body-parser');
+const bcrypt = require('bcrypt-nodejs');
+const cors = require('cors');
+const knex = require('knex');
 
 
-import register from './controllers/register';
-import signIn from './controllers/signIn';
-import profile from './controllers/profile';
-import image from './controllers/image';
+const register = require('./controllers/register');
+const signIn = require('./controllers/signIn');
+const profile = require('./controllers/profile');
+const image = require('./controllers/image');
 
 ////--exec babel-node
 //    "start": "nodemon server.js",
@@ -25,7 +25,7 @@ const db = knex({
     }
   });
 
-// db.select('*').from('users').then(data =>{
+// db.select('*').= require('users').then(data =>{
 //     console.log(data);
 // });
 
