@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import bcrypt from 'bcrypt-nodejs';
 import cors from 'cors';
 import knex from 'knex';
-
+//// "type":"module",
 
 import register from './controllers/register';
 import signIn from './controllers/signIn';
