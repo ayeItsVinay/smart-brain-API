@@ -10,8 +10,10 @@ import signIn from './controllers/signIn';
 import profile from './controllers/profile';
 import image from './controllers/image';
 
+////--exec babel-node
+
 const db = knex({
-    client: 'pg',
+    client: 'pg',   
     //where this database lives
     connection: {
       host : '127.0.0.1', // basically local host
